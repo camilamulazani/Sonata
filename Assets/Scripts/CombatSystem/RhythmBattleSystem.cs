@@ -23,7 +23,6 @@ public class RhythmBattleSystem : MonoBehaviour
     // As opções de setas disponíveis
     private KeyCode[] arrowKeys = { KeyCode.UpArrow, KeyCode.DownArrow, KeyCode.LeftArrow, KeyCode.RightArrow };
 
-    // 1. O Gatilho da Luta (Colisão 2D)
     void OnTriggerEnter(Collider other)
     {
         // Se quem encostou tem a tag "Player" e o script estava apenas esperando
